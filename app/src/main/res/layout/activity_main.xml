@@ -63,8 +63,17 @@
         android:backgroundTint="@color/IndianRed"
         />
 
-
-    
+<!--Score text view -->
+    <TextView
+        android:id="@+id/Scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SubmitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:hint="0/0"
+        />
 
 
 

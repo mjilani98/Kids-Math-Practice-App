@@ -41,15 +41,32 @@
         android:text="="
         />
 <!--Answer Input box-->
-<EditText
-    android:id="@+id/AnswerInputBox"
-    style="@style/EditTextStyle"
-    android:layout_toEndOf="@id/EqualSign"
-    android:layout_marginLeft="20dp"
-    />
+    <EditText
+        android:id="@+id/AnswerInputBox"
+        style="@style/EditTextStyle"
+        android:layout_toEndOf="@id/EqualSign"
+        android:layout_marginLeft="20dp"
+        />
+
+<!--Submit Button-->
+
+    <Button
+        android:id="@+id/SubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Num2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/IndianRed"
+        />
 
 
     
+
+
 
 
 </RelativeLayout>

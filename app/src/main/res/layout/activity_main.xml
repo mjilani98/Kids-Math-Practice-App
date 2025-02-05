@@ -46,6 +46,7 @@
         style="@style/EditTextStyle"
         android:layout_toEndOf="@id/EqualSign"
         android:layout_marginLeft="20dp"
+
         />
 
 <!--Submit Button-->
@@ -61,6 +62,7 @@
         android:textSize="25dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/IndianRed"
+        android:onClick="submit"
         />
 
 <!--Score text view -->

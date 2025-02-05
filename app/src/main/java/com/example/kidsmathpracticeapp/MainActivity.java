@@ -71,5 +71,10 @@ public class MainActivity extends AppCompatActivity {
         scoreOutPut.setText(strCorrectAnswer + "/" + strTotalQuestions);
     }
 
+    public void submit(View v)
+    {
+        
+    }
+
 
 }

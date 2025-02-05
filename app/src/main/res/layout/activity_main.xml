@@ -90,6 +90,7 @@
         android:textSize="25dp"
         android:textColor="@color/black"
         android:backgroundTint="@color/IndianRed"
+        android:onClick="next"
         />
 
 
